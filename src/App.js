@@ -21,7 +21,7 @@ class App extends Component {
 
   getResumeData(){
     $.ajax({
-      url:'https://mysterious-ridge-83640.herokuapp.com/resumeData.json',
+      url:'www.edmccormic.com/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
